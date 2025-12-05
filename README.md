@@ -1,7 +1,5 @@
 # 경기도 카드 소비 데이터로 알아보는 소비 패턴과 트렌드
 
-프로젝트 github 주소 : [https://github.com/davidots429/GyeonggiCard2025](https://github.com/davidots429/GyeonggiCard2025)
-
 ## Step 1. 프로젝트 준비
 
 ### 1. 프로젝트 폴더 생성.
@@ -56,17 +54,13 @@ git remote add origin https://github.com/davidots429/GyeonggiCard2025.git
 
 **코드 포함 상세 설명 :** [02_데이터병합및샘플링.md](02_데이터병합및샘플링.md)
 
-**링크 :** https://github.com/davidots429/GyeonggiCard2025/blob/main/02_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B3%91%ED%95%A9%EB%B0%8F%EC%83%98%ED%94%8C%EB%A7%81.md
-
 다운로드 받은 파일의 형태가 tbsh_gyeonggi_day_202501_광명시.csv 같은 형식으로 되어있어서 이를 월별로 병합해 주었다. 월별로 병합한 파일에서 0값, 음수, 결측치를 제거하고 데이터 샘플링을 진행했다. 샘플링 비율을 5%로 정하는 것이 타당한지 통계적으로 검증한 뒤 월별 파일을 샘플링 해 주었고 샘플링 된 파일들을 시각화하기 편하게 연도별로 다시 병합해 주었다.
 
 ## Step 4. 데이터 시각화
 
 **1. 상세 설명 :** [03_탐색적데이터분석.md](03_탐색적데이터분석.md)
-- **링크 :** https://github.com/davidots429/GyeonggiCard2025/blob/main/03_%ED%83%90%EC%83%89%EC%A0%81%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D.md
 
 **2. 소스 코드 :** [03_Exploratory_Data_Analysis.ipynb](03_Exploratory_Data_Analysis.ipynb)
-- **링크 :** https://github.com/davidots429/GyeonggiCard2025/blob/main/03_Exploratory_Data_Analysis.ipynb
 
 시계열 분석, 인구통계적 분석, 카테고리 분석, 지역별 분석, 복합 상관관계 분석을 시각화와 함께 진행했다. 
 
